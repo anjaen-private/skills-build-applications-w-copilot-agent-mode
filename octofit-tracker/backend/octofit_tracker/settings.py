@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'octofit_tracker',
+    'djongo',  # Add djongo explicitly to installed apps
 ]
 
 # Custom CORS middleware for Django 3.1.12
